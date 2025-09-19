@@ -45,6 +45,13 @@ but will not create new authentication mechanisms.
 * The attested (D)TLS protocol will not modify the (D)TLS protocol outside
 of adding (D)TLS extensions to support its goals that do not modify the
 core (D)TLS specification.
+* The attested (D)TLS protocol will support: 
+
+  * Server as Attester
+  * Client as Attester
+  * Mutual Attestation
+
+In particular, the specification will also support mutual attestation without client authentication.
 * The attested (D)TLS protocol will allow per-connection
 [freshness](https://www.ietf.org/rfc/rfc9334.html#section-10)
 of Evidence or Attestation Results, whichever is applicable.
