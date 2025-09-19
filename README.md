@@ -13,7 +13,8 @@ prove that its software and firmware haven't been tampered with, or
 that a secure boot method is enabled, or that cryptographic keys are
 securely stored within a hardware-protected environment.
 
-This provides an additional assurance of trustworthiness, helping to
+The composition of remote attestation and (D)TLS
+provides an additional assurance of trustworthiness, helping to
 prevent the continued use of a compromised system even if its
 conventional credentials remain valid, and enables authorization
 policies based on stronger security guarantees.
@@ -28,6 +29,10 @@ extension and/or exporter features of D(TLS).
 
 Such a mechanism would allow an entity to produce Evidence or an
 Attestation Result about itself for another party to evaluate.
+
+This protocol will also describe a minimum subset of properties
+that the attested remote state must ensure in order to bind the
+Evidence and Attestation Results to the TLS connection.
 
 Specific scoping:
 
