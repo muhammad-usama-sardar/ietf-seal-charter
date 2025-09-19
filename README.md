@@ -66,11 +66,9 @@ with the specification work.
 
 * The working group will work closely with the TLS working group, the RATS working group, and the Confidential Computing Consortium's (CCC's) Attestation Special Interest Group (SIG).
 * The working group will engage with research groups regarding formal analysis of the working group's resulting work.
-* The working group will work closely with the WIMSE working group to ensure its deliverables are usable for common WIMSE deployments and have taken into account any Operational Considerations that apply.
 
 # (Proposed) Milestones
 
-* A use cases document describing the scenarios that this working group will be targeting in its specification document. This document need not be published as an RFC.
 * A Standards Track document defining a (D)TLS protocol solution supporting remote peer and mutual attestation bound to the (D)TLS connection.
 
 # Future work
