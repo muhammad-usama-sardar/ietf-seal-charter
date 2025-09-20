@@ -21,13 +21,12 @@ policies based on stronger security guarantees.
 
 # Scope
 
-The Secure Evidence and Attestation Layer (SEAL) WG will document a
-set of use cases that protocols such as (D)TLS should be able to support.
-It will initially deliver a Standards Track protocol that meets these
-use cases and enables peer or mutual attestation for (D)TLS using the
+The Secure Evidence and Attestation Layer (SEAL) WG 
+will initially deliver a Standards Track protocol that 
+enables peer or mutual attestation for (D)TLS using the
 extension and/or exporter features of D(TLS).
 
-Such a mechanism would allow an entity to produce Evidence or an
+Such a protocol would allow an entity to produce Evidence or an
 Attestation Result about itself for another party to evaluate.
 
 This protocol will also describe a minimum subset of properties
@@ -55,7 +54,7 @@ In particular, the specification will also support mutual attestation without cl
 * The attested (D)TLS protocol will allow per-connection
 [freshness](https://www.ietf.org/rfc/rfc9334.html#section-10)
 of Evidence or Attestation Results, whichever is applicable.
-* The effort will not create solutions that decrease the privacy
+* The effort will not create a protocol that decreases the privacy
 or security properties of generic TLS connections.
 
 The working group will engage with the research community on the
@@ -65,11 +64,11 @@ with the specification work.
 # Dependencies and Liaisons
 
 * The working group will work closely with the TLS working group, the RATS working group, and the Confidential Computing Consortium's (CCC's) Attestation Special Interest Group (SIG).
-* The working group will engage with research groups regarding formal analysis of the working group's resulting work.
+* The working group will engage with research groups, such as [IRTF Usable Formal Methods Research Group (UFMRG)](https://www.irtf.org/ufmrg.html), regarding formal analysis of the protocol.
 
 # (Proposed) Milestones
 
-* A Standards Track document defining a (D)TLS protocol solution supporting remote peer and mutual attestation bound to the (D)TLS connection.
+* A Standards Track document defining an attested (D)TLS protocol supporting remote peer and mutual attestation bound to the (D)TLS connection.
 
 # Future work
 
