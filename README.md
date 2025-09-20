@@ -24,7 +24,7 @@ policies based on stronger security guarantees.
 The Secure Evidence and Attestation Layer (SEAL) WG 
 will initially deliver a Standards Track protocol that 
 enables peer or mutual attestation for (D)TLS using the
-extension and/or exporter features of D(TLS).
+extension and/or exporter features of (D)TLS.
 
 Such a protocol would allow an entity to produce Evidence or an
 Attestation Result about itself for another party to evaluate.
